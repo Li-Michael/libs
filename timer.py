@@ -3,6 +3,7 @@
 
 """
 =================time the func==================
+## Python标准库有 timeit 模块， 并且有profile/cProfile 模块测试程序性能
 测试函数运行时间
 
 timer(func, 1, 2, a=3, b=4, _reps=1000) calls and times func(1, 2, a=3, b=4) _reps times, and returns total time for all runs, with final result;
