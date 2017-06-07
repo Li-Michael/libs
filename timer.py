@@ -7,13 +7,13 @@
 
 timer(func, 1, 2, a=3, b=4, _reps=1000) calls and times func(1, 2, a=3, b=4) _reps times, and returns total time for all runs, with final result;
 
-best(func, 1, 2, a=3, b=4, _reps=50) runs best-of-N timer to filter out any system load variation, and returns best time among _reps tests
+best(func, 1, 2, a=3, b=4, _reps=10) runs best-of-N timer to filter out any system load variation, and returns best time among _reps tests
 
 """
 
 import time, sys
 
-timefunc = time.cloack if sys.platform[:3]="win" else time.time
+timefunc = time.cloack if sys.platform[:3]=="win" else time.time
 
 def trace(*args):
     pass
@@ -32,22 +32,22 @@ def timer(func, *args, **kw):
         ret = func(*args, **kw)
     elasped = timefunc() - start
 
-    return (elasped, avg, ret)
+    return (elasped, elasped, ret)
 
 def best(func, *args, **kw):
     """
     best(func, *args, **kw) => return (best, average->average of N times, ret->func(*args, **kw))
     best-of-_reps times 
     """
-    _reps = kw.pop('_reps', 50)
+    _reps = kw.pop('_reps', 10)
     best = 2 ** 32
     sum_time = 0
 
     for i in range(_reps):
-        (time, ret) = timer(func, *args, _reps=1, **kw)
+        (time, avg, ret) = timer(func, *args, _reps=1,  **kw)
         if time < best:
             best = time
-            sum_time += time
+            sum_time += avg
 
         return (best, sum_time/_reps, ret)
 
