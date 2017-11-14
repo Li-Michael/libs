@@ -26,7 +26,7 @@ def reload_all(*args):
         if type(arg) == types.ModuleType:
             transitive_reload(arg, visited)
 
-if __name__='__main__':                             # Test code:reload myself, should reload this, types
+if __name__=='__main__':                             # Test code:reload myself, should reload this, types
     import reloadall
     reload_all(reloadall)
 
