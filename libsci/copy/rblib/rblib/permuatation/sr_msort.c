@@ -1,8 +1,8 @@
 /*
  * Prog Description:
  *
- * Author: Rong Zheng-Qin
- * Email: rongzhengqin@genomics.org.cn  or  zju3351689@gmail.com
+ * Author: michael
+ * Email: michael@126.com  or  
  * */
 #include<stdio.h>
 #include<stdlib.h>

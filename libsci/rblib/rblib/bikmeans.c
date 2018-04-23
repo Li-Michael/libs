@@ -747,7 +747,7 @@ static char __pyx_k_bestCentToSplit[] = "bestCentToSplit";
 static char __pyx_k_ptsInCurrCulster[] = "ptsInCurrCulster";
 static char __pyx_k_scipy_cluster_vq[] = "scipy.cluster.vq";
 static char __pyx_k_sseSplit_and_sseNotSplit[] = "sseSplit, and sseNotSplit: ";
-static char __pyx_k_home_rongzhengqin2_Cython_git_r[] = "/home/rongzhengqin2/Cython/git/rblib/rblib/bikmeans.pyx";
+static char __pyx_k_home_michael_Cython_git_r[] = "/home/michael/Cython/git/rblib/rblib/bikmeans.pyx";
 static PyObject *__pyx_n_s_A;
 static PyObject *__pyx_n_s_asmatrix;
 static PyObject *__pyx_n_s_axis;
@@ -774,7 +774,7 @@ static PyObject *__pyx_n_s_distMeas;
 static PyObject *__pyx_n_s_end;
 static PyObject *__pyx_n_s_file;
 static PyObject *__pyx_n_s_float;
-static PyObject *__pyx_kp_s_home_rongzhengqin2_Cython_git_r;
+static PyObject *__pyx_kp_s_home_michael_Cython_git_r;
 static PyObject *__pyx_n_s_i;
 static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_n_s_inf;
@@ -3702,7 +3702,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_end, __pyx_k_end, sizeof(__pyx_k_end), 0, 0, 1, 1},
   {&__pyx_n_s_file, __pyx_k_file, sizeof(__pyx_k_file), 0, 0, 1, 1},
   {&__pyx_n_s_float, __pyx_k_float, sizeof(__pyx_k_float), 0, 0, 1, 1},
-  {&__pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_k_home_rongzhengqin2_Cython_git_r, sizeof(__pyx_k_home_rongzhengqin2_Cython_git_r), 0, 0, 1, 0},
+  {&__pyx_kp_s_home_michael_Cython_git_r, __pyx_k_home_michael_Cython_git_r, sizeof(__pyx_k_home_michael_Cython_git_r), 0, 0, 1, 0},
   {&__pyx_n_s_i, __pyx_k_i, sizeof(__pyx_k_i), 0, 0, 1, 1},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
   {&__pyx_n_s_inf, __pyx_k_inf, sizeof(__pyx_k_inf), 0, 0, 1, 1},
@@ -3980,7 +3980,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__30 = PyTuple_Pack(2, __pyx_n_s_vecA, __pyx_n_s_vecB); if (unlikely(!__pyx_tuple__30)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 3; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__30);
   __Pyx_GIVEREF(__pyx_tuple__30);
-  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_disEclud, 3, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 3; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_disEclud, 3, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 3; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/bikmeans.pyx":6
  * 	return np.sqrt(np.sum(np.power(vecA-vecB,2)))
@@ -3992,7 +3992,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__32 = PyTuple_Pack(7, __pyx_n_s_dataSet, __pyx_n_s_k, __pyx_n_s_n, __pyx_n_s_centroids, __pyx_n_s_j, __pyx_n_s_minJ, __pyx_n_s_rangeJ); if (unlikely(!__pyx_tuple__32)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 6; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__32);
   __Pyx_GIVEREF(__pyx_tuple__32);
-  __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(2, 0, 7, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_randCent, 6, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 6; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__33 = (PyObject*)__Pyx_PyCode_New(2, 0, 7, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__32, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_randCent, 6, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__33)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 6; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/bikmeans.pyx":16
  * 
@@ -4004,7 +4004,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__34 = PyTuple_Pack(15, __pyx_n_s_dataSet, __pyx_n_s_k, __pyx_n_s_distMeas, __pyx_n_s_createCent, __pyx_n_s_m, __pyx_n_s_clusterAssment, __pyx_n_s_centroids, __pyx_n_s_clusterChanged, __pyx_n_s_i, __pyx_n_s_minDist, __pyx_n_s_minIndex, __pyx_n_s_j, __pyx_n_s_distJI, __pyx_n_s_cent, __pyx_n_s_ptsInClust); if (unlikely(!__pyx_tuple__34)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 16; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__34);
   __Pyx_GIVEREF(__pyx_tuple__34);
-  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(4, 0, 15, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_kMeans, 16, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 16; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(4, 0, 15, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_kMeans, 16, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 16; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/bikmeans.pyx":40
  * 	return centroids,clusterAssment
@@ -4016,7 +4016,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__36 = PyTuple_Pack(18, __pyx_n_s_dataSet, __pyx_n_s_k, __pyx_n_s_distMeas, __pyx_n_s_m, __pyx_n_s_clusterAssment, __pyx_n_s_centroid0, __pyx_n_s_centList, __pyx_n_s_j, __pyx_n_s_lowestSSE, __pyx_n_s_i, __pyx_n_s_ptsInCurrCulster, __pyx_n_s_centroidMat, __pyx_n_s_splitClustAss, __pyx_n_s_sseSplit, __pyx_n_s_sseNotSplit, __pyx_n_s_bestCentToSplit, __pyx_n_s_bestNewCents, __pyx_n_s_bestClustAss); if (unlikely(!__pyx_tuple__36)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 40; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__36);
   __Pyx_GIVEREF(__pyx_tuple__36);
-  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(3, 0, 18, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_bikmeans, 40, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 40; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(3, 0, 18, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_bikmeans, 40, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 40; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/bikmeans.pyx":72
  * 

@@ -1085,7 +1085,7 @@ static char __pyx_k_0_based_0_based_left_closed_and[] = "\n\t# 0-based [,) 0-bas
 static char __pyx_k_WARN_check_s_no_transcript_foun[] = "[WARN] check '%s', no transcript found\n";
 static char __pyx_k_WARN_s_has_been_parsed_please_a[] = "[WARN] %s has been parsed, please addexon before gene parsed\n";
 static char __pyx_k_gene_id_s_gene_name_s_gene_type[] = "================\ngene id     : %s\ngene name   : %s\ngene type   : %s\ninclude transcripts : %s\n================\n";
-static char __pyx_k_home_rongzhengqin2_Cython_git_r[] = "/home/rongzhengqin2/Cython/git/rblib/rblib/genestruct.pyx";
+static char __pyx_k_home_michael_Cython_git_r[] = "/home/michael/Cython/git/rblib/rblib/genestruct.pyx";
 static char __pyx_k_transcript_id_s_transcript_name[] = "---\ntranscript id   : %s\ntranscript name : %s\ntranscript type : %s\nchrom           : %s\nstrand          : %s\nexons           : %s\nintron          : %s\ncoding region   : %s ~ %s\ncds             : %s\n# 0-based left closed and right open interval\n---\n";
 static PyObject *__pyx_kp_s_;
 static PyObject *__pyx_kp_s_0;
@@ -1211,7 +1211,7 @@ static PyObject *__pyx_n_s_gtfattr;
 static PyObject *__pyx_n_s_gtffn;
 static PyObject *__pyx_n_s_h;
 static PyObject *__pyx_n_s_hgene;
-static PyObject *__pyx_kp_s_home_rongzhengqin2_Cython_git_r;
+static PyObject *__pyx_kp_s_home_michael_Cython_git_r;
 static PyObject *__pyx_n_s_i;
 static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_n_s_incmpl;
@@ -5716,7 +5716,7 @@ static PyObject *__pyx_pf_5rblib_10genestruct_4Gene_10__gtfattr(CYTHON_UNUSED Py
  * 			return ' %s "%s";'%(name,obj)
  * 		else:return ""             # <<<<<<<<<<<<<<
  * 	def togtf(self):
- * 		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+ * 		"this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com"
  */
     __Pyx_XDECREF(__pyx_r);
     __Pyx_INCREF(__pyx_kp_s_);
@@ -5748,13 +5748,13 @@ static PyObject *__pyx_pf_5rblib_10genestruct_4Gene_10__gtfattr(CYTHON_UNUSED Py
  * 			return ' %s "%s";'%(name,obj)
  * 		else:return ""
  * 	def togtf(self):             # <<<<<<<<<<<<<<
- * 		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+ * 		"this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com"
  * 		strout=''
  */
 
 /* Python wrapper */
 static PyObject *__pyx_pw_5rblib_10genestruct_4Gene_13togtf(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static char __pyx_doc_5rblib_10genestruct_4Gene_12togtf[] = "this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com";
+static char __pyx_doc_5rblib_10genestruct_4Gene_12togtf[] = "this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com";
 static PyMethodDef __pyx_mdef_5rblib_10genestruct_4Gene_13togtf = {"togtf", (PyCFunction)__pyx_pw_5rblib_10genestruct_4Gene_13togtf, METH_O, __pyx_doc_5rblib_10genestruct_4Gene_12togtf};
 static PyObject *__pyx_pw_5rblib_10genestruct_4Gene_13togtf(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
@@ -5815,7 +5815,7 @@ static PyObject *__pyx_pf_5rblib_10genestruct_4Gene_12togtf(CYTHON_UNUSED PyObje
 
   /* "rblib/genestruct.pyx":224
  * 	def togtf(self):
- * 		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+ * 		"this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com"
  * 		strout=''             # <<<<<<<<<<<<<<
  * 		if not self.parsed: self.parse_gene()
  * 		if not self.parsed: return strout
@@ -5824,7 +5824,7 @@ static PyObject *__pyx_pf_5rblib_10genestruct_4Gene_12togtf(CYTHON_UNUSED PyObje
   __pyx_v_strout = __pyx_kp_s_;
 
   /* "rblib/genestruct.pyx":225
- * 		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+ * 		"this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com"
  * 		strout=''
  * 		if not self.parsed: self.parse_gene()             # <<<<<<<<<<<<<<
  * 		if not self.parsed: return strout
@@ -7156,7 +7156,7 @@ static PyObject *__pyx_pf_5rblib_10genestruct_4Gene_12togtf(CYTHON_UNUSED PyObje
  * 			return ' %s "%s";'%(name,obj)
  * 		else:return ""
  * 	def togtf(self):             # <<<<<<<<<<<<<<
- * 		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+ * 		"this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com"
  * 		strout=''
  */
 
@@ -7202,13 +7202,13 @@ static PyObject *__pyx_pf_5rblib_10genestruct_4Gene_12togtf(CYTHON_UNUSED PyObje
  * 		return strout
  * 
  * 	def torefgene(self):             # <<<<<<<<<<<<<<
- * 		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+ * 		"this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com"
  * 		"Note : in refgene format from UCSC, only output transcripts"
  */
 
 /* Python wrapper */
 static PyObject *__pyx_pw_5rblib_10genestruct_4Gene_15torefgene(PyObject *__pyx_self, PyObject *__pyx_v_self); /*proto*/
-static char __pyx_doc_5rblib_10genestruct_4Gene_14torefgene[] = "this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com";
+static char __pyx_doc_5rblib_10genestruct_4Gene_14torefgene[] = "this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com";
 static PyMethodDef __pyx_mdef_5rblib_10genestruct_4Gene_15torefgene = {"torefgene", (PyCFunction)__pyx_pw_5rblib_10genestruct_4Gene_15torefgene, METH_O, __pyx_doc_5rblib_10genestruct_4Gene_14torefgene};
 static PyObject *__pyx_pw_5rblib_10genestruct_4Gene_15torefgene(PyObject *__pyx_self, PyObject *__pyx_v_self) {
   PyObject *__pyx_r = 0;
@@ -7276,7 +7276,7 @@ static PyObject *__pyx_pf_5rblib_10genestruct_4Gene_14torefgene(CYTHON_UNUSED Py
   __Pyx_RefNannySetupContext("torefgene", 0);
 
   /* "rblib/genestruct.pyx":284
- * 		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+ * 		"this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com"
  * 		"Note : in refgene format from UCSC, only output transcripts"
  * 		strout=''             # <<<<<<<<<<<<<<
  * 		if not self.parsed: self.parse_gene()
@@ -8542,7 +8542,7 @@ static PyObject *__pyx_pf_5rblib_10genestruct_4Gene_14torefgene(CYTHON_UNUSED Py
  * 		return strout
  * 
  * 	def torefgene(self):             # <<<<<<<<<<<<<<
- * 		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+ * 		"this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com"
  * 		"Note : in refgene format from UCSC, only output transcripts"
  */
 
@@ -12597,7 +12597,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_gtffn, __pyx_k_gtffn, sizeof(__pyx_k_gtffn), 0, 0, 1, 1},
   {&__pyx_n_s_h, __pyx_k_h, sizeof(__pyx_k_h), 0, 0, 1, 1},
   {&__pyx_n_s_hgene, __pyx_k_hgene, sizeof(__pyx_k_hgene), 0, 0, 1, 1},
-  {&__pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_k_home_rongzhengqin2_Cython_git_r, sizeof(__pyx_k_home_rongzhengqin2_Cython_git_r), 0, 0, 1, 0},
+  {&__pyx_kp_s_home_michael_Cython_git_r, __pyx_k_home_michael_Cython_git_r, sizeof(__pyx_k_home_michael_Cython_git_r), 0, 0, 1, 0},
   {&__pyx_n_s_i, __pyx_k_i, sizeof(__pyx_k_i), 0, 0, 1, 1},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
   {&__pyx_n_s_incmpl, __pyx_k_incmpl, sizeof(__pyx_k_incmpl), 0, 0, 1, 1},
@@ -12823,7 +12823,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__18 = PyTuple_Pack(13, __pyx_n_s_self, __pyx_n_s_transcriptid, __pyx_n_s_transcriptname, __pyx_n_s_strand, __pyx_n_s_chrom, __pyx_n_s_exons, __pyx_n_s_transcript_type, __pyx_n_s_leftmost, __pyx_n_s_rightmost, __pyx_n_s_transcript_source, __pyx_n_s_parsed, __pyx_n_s_transcript_status, __pyx_n_s_proteinid); if (unlikely(!__pyx_tuple__18)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 14; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__18);
   __Pyx_GIVEREF(__pyx_tuple__18);
-  __pyx_codeobj__19 = (PyObject*)__Pyx_PyCode_New(13, 0, 13, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__18, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_init, 14, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__19)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 14; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__19 = (PyObject*)__Pyx_PyCode_New(13, 0, 13, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__18, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_init, 14, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__19)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 14; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":41
  * 		self.cdsstatus = [] # for gtf rules
@@ -12835,7 +12835,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__20 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_strout); if (unlikely(!__pyx_tuple__20)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 41; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__20);
   __Pyx_GIVEREF(__pyx_tuple__20);
-  __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_str, 41, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 41; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__21 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__20, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_str, 41, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__21)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 41; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":56
  * 		return strout
@@ -12847,7 +12847,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__22 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__22)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 56; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__22);
   __Pyx_GIVEREF(__pyx_tuple__22);
-  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_merge_exons, 56, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 56; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__23 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__22, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_merge_exons, 56, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__23)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 56; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":66
  * 		return 0
@@ -12859,7 +12859,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__24 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_start, __pyx_n_s_end); if (unlikely(!__pyx_tuple__24)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 66; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__24);
   __Pyx_GIVEREF(__pyx_tuple__24);
-  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_add_exon, 66, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 66; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__25 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__24, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_add_exon, 66, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__25)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 66; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":74
  * 		return 0
@@ -12871,7 +12871,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__26 = PyTuple_Pack(1, __pyx_n_s_self); if (unlikely(!__pyx_tuple__26)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 74; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__26);
   __Pyx_GIVEREF(__pyx_tuple__26);
-  __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_sortexon, 74, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 74; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__27 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__26, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_sortexon, 74, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__27)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 74; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":80
  * 		return 0
@@ -12883,7 +12883,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__28 = PyTuple_Pack(17, __pyx_n_s_self, __pyx_n_s_strand, __pyx_n_s_sortexons, __pyx_n_s_introns, __pyx_n_s_UTR_f, __pyx_n_s_UTR_b, __pyx_n_s_CDS, __pyx_n_s_exon_num, __pyx_n_s_start, __pyx_n_s_cdslen, __pyx_n_s_cds_start, __pyx_n_s_cds_stop, __pyx_n_s_i, __pyx_n_s_starttmp, __pyx_n_s_endtmp, __pyx_n_s_cdsstatus, __pyx_n_s_cdsstatus2); if (unlikely(!__pyx_tuple__28)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 80; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__28);
   __Pyx_GIVEREF(__pyx_tuple__28);
-  __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(1, 0, 17, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_parse_transcript, 80, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 80; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__29 = (PyObject*)__Pyx_PyCode_New(1, 0, 17, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__28, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_parse_transcript, 80, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__29)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 80; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":158
  * 
@@ -12895,7 +12895,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__30 = PyTuple_Pack(6, __pyx_n_s_self, __pyx_n_s_geneid, __pyx_n_s_genename, __pyx_n_s_gene_type, __pyx_n_s_gene_source, __pyx_n_s_gene_status); if (unlikely(!__pyx_tuple__30)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 158; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__30);
   __Pyx_GIVEREF(__pyx_tuple__30);
-  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(6, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_init, 158, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 158; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__31 = (PyObject*)__Pyx_PyCode_New(6, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__30, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_init, 158, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__31)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 158; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_tuple__32 = PyTuple_Pack(4, ((PyObject*)__pyx_kp_s_), ((PyObject *)Py_None), ((PyObject *)Py_None), ((PyObject *)Py_None)); if (unlikely(!__pyx_tuple__32)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 158; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__32);
   __Pyx_GIVEREF(__pyx_tuple__32);
@@ -12910,7 +12910,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__33 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_strout, __pyx_n_s_i); if (unlikely(!__pyx_tuple__33)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__33);
   __Pyx_GIVEREF(__pyx_tuple__33);
-  __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(1, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_str, 171, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__34 = (PyObject*)__Pyx_PyCode_New(1, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__33, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_str, 171, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__34)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 171; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":181
  * 		return strout
@@ -12922,7 +12922,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__35 = PyTuple_Pack(14, __pyx_n_s_self, __pyx_n_s_tid, __pyx_n_s_transcriptname, __pyx_n_s_strand, __pyx_n_s_chrom, __pyx_n_s_exons, __pyx_n_s_transcript_type, __pyx_n_s_leftmost, __pyx_n_s_rightmost, __pyx_n_s_transcript_source, __pyx_n_s_parsed, __pyx_n_s_transcript_status, __pyx_n_s_proteinid, __pyx_n_s_tmptranscript); if (unlikely(!__pyx_tuple__35)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 181; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__35);
   __Pyx_GIVEREF(__pyx_tuple__35);
-  __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(13, 0, 14, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_get_transcript, 181, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 181; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__36 = (PyObject*)__Pyx_PyCode_New(13, 0, 14, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__35, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_get_transcript, 181, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__36)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 181; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":187
  * 		return self.transcripts[tid]
@@ -12934,7 +12934,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__37 = PyTuple_Pack(2, __pyx_n_s_self, __pyx_n_s_transcript); if (unlikely(!__pyx_tuple__37)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 187; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__37);
   __Pyx_GIVEREF(__pyx_tuple__37);
-  __pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__37, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_add_transcript, 187, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__38)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 187; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__38 = (PyObject*)__Pyx_PyCode_New(2, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__37, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_add_transcript, 187, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__38)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 187; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":195
  * 		return self.transcripts[transcript.transcriptid]
@@ -12946,7 +12946,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__39 = PyTuple_Pack(4, __pyx_n_s_self, __pyx_n_s_allexons, __pyx_n_s_tid, __pyx_n_s_tmptranscript); if (unlikely(!__pyx_tuple__39)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__39);
   __Pyx_GIVEREF(__pyx_tuple__39);
-  __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(1, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__39, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_parse_gene, 195, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__40 = (PyObject*)__Pyx_PyCode_New(1, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__39, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_parse_gene, 195, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__40)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 195; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":218
  * 		self.parsed = 1
@@ -12958,31 +12958,31 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__41 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_obj, __pyx_n_s_name); if (unlikely(!__pyx_tuple__41)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 218; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__41);
   __Pyx_GIVEREF(__pyx_tuple__41);
-  __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_gtfattr, 218, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 218; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__42 = (PyObject*)__Pyx_PyCode_New(3, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__41, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_gtfattr, 218, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__42)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 218; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":222
  * 			return ' %s "%s";'%(name,obj)
  * 		else:return ""
  * 	def togtf(self):             # <<<<<<<<<<<<<<
- * 		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+ * 		"this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com"
  * 		strout=''
  */
   __pyx_tuple__43 = PyTuple_Pack(24, __pyx_n_s_self, __pyx_n_s_strout, __pyx_n_s_Line, __pyx_n_s_geneid, __pyx_n_s_geneattr, __pyx_n_s_gene_start, __pyx_n_s_gene_stop, __pyx_n_s_gene_source, __pyx_n_s_chrom, __pyx_n_s_strand, __pyx_n_s_transcript, __pyx_n_s_transcriptInstance, __pyx_n_s_tid, __pyx_n_s_attr, __pyx_n_s_exons, __pyx_n_s_transcript_source, __pyx_n_s_cds, __pyx_n_s_intron, __pyx_n_s_cdsstatus, __pyx_n_s_s, __pyx_n_s_e, __pyx_n_s_annoregion, __pyx_n_s_i, __pyx_n_s_tmpstatus); if (unlikely(!__pyx_tuple__43)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__43);
   __Pyx_GIVEREF(__pyx_tuple__43);
-  __pyx_codeobj__44 = (PyObject*)__Pyx_PyCode_New(1, 0, 24, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__43, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_togtf, 222, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__44)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__44 = (PyObject*)__Pyx_PyCode_New(1, 0, 24, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__43, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_togtf, 222, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__44)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":281
  * 		return strout
  * 
  * 	def torefgene(self):             # <<<<<<<<<<<<<<
- * 		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+ * 		"this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com"
  * 		"Note : in refgene format from UCSC, only output transcripts"
  */
   __pyx_tuple__45 = PyTuple_Pack(28, __pyx_n_s_self, __pyx_n_s_strout, __pyx_n_s_genename, __pyx_n_s_transcript, __pyx_n_s_transcriptInstance, __pyx_n_s_tid, __pyx_n_s_chrom, __pyx_n_s_exons, __pyx_n_s_strand, __pyx_n_s_transcript_source, __pyx_n_s_transcript_status, __pyx_n_s_outexonstarts, __pyx_n_s_outexonstops, __pyx_n_s_outexonstatus, __pyx_n_s_num, __pyx_n_s_utr1, __pyx_n_s_utr2, __pyx_n_s_cds, __pyx_n_s_cdsstatus, __pyx_n_s_s, __pyx_n_s_e, __pyx_n_s_i, __pyx_n_s_tmpstatus, __pyx_n_s_info1, __pyx_n_s_info2, __pyx_n_s_leftmost, __pyx_n_s_rightmost, __pyx_n_s_Line); if (unlikely(!__pyx_tuple__45)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 281; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__45);
   __Pyx_GIVEREF(__pyx_tuple__45);
-  __pyx_codeobj__46 = (PyObject*)__Pyx_PyCode_New(1, 0, 28, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__45, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_torefgene, 281, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__46)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 281; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__46 = (PyObject*)__Pyx_PyCode_New(1, 0, 28, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__45, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_torefgene, 281, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__46)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 281; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":340
  * 
@@ -12994,7 +12994,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__47 = PyTuple_Pack(23, __pyx_n_s_refgenefile, __pyx_n_s_hgene, __pyx_n_s_ret, __pyx_n_s_num, __pyx_n_s_nm_name, __pyx_n_s_chrom, __pyx_n_s_strand, __pyx_n_s_exon_s, __pyx_n_s_exon_e, __pyx_n_s_cds_s, __pyx_n_s_cds_e, __pyx_n_s_exon_num, __pyx_n_s_exonstarts, __pyx_n_s_exonends, __pyx_n_s_uniq_id, __pyx_n_s_symbol, __pyx_n_s_kown1, __pyx_n_s_kown2, __pyx_n_s_exon_status, __pyx_n_s_tmpgene, __pyx_n_s_tmptranscript, __pyx_n_s_i, __pyx_n_s_key); if (unlikely(!__pyx_tuple__47)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 340; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__47);
   __Pyx_GIVEREF(__pyx_tuple__47);
-  __pyx_codeobj__48 = (PyObject*)__Pyx_PyCode_New(1, 0, 23, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__47, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_readrefgene, 340, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__48)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 340; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__48 = (PyObject*)__Pyx_PyCode_New(1, 0, 23, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__47, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_readrefgene, 340, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__48)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 340; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":363
  * # use for gtf only now , use to read GTF files
@@ -13006,7 +13006,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__49 = PyTuple_Pack(12, __pyx_n_s_self, __pyx_n_s_fmt, __pyx_n_s_gattr, __pyx_n_s_tattr, __pyx_n_s_gidattr, __pyx_n_s_tidattr, __pyx_n_s_genetypeattr, __pyx_n_s_transcripttypeattr, __pyx_n_s_tanno, __pyx_n_s_codonanno_start, __pyx_n_s_codonanno_stop, __pyx_n_s_pidattr); if (unlikely(!__pyx_tuple__49)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 363; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__49);
   __Pyx_GIVEREF(__pyx_tuple__49);
-  __pyx_codeobj__50 = (PyObject*)__Pyx_PyCode_New(12, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__49, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_init, 363, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__50)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 363; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__50 = (PyObject*)__Pyx_PyCode_New(12, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__49, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_init, 363, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__50)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 363; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_tuple__51 = PyTuple_Pack(11, ((PyObject*)__pyx_n_s_gtf), ((PyObject*)__pyx_n_s_gene_name), ((PyObject*)__pyx_n_s_transcript_name), ((PyObject*)__pyx_n_s_gene_id), ((PyObject*)__pyx_n_s_transcript_id), ((PyObject*)__pyx_n_s_gene_type), ((PyObject*)__pyx_n_s_transcript_type), ((PyObject*)__pyx_kp_s_exon_CDS_UTR), ((PyObject*)__pyx_n_s_start_codon), ((PyObject*)__pyx_n_s_stop_codon), ((PyObject*)__pyx_n_s_protein_id)); if (unlikely(!__pyx_tuple__51)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 363; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__51);
   __Pyx_GIVEREF(__pyx_tuple__51);
@@ -13021,7 +13021,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__52 = PyTuple_Pack(16, __pyx_n_s_self, __pyx_n_s_start, __pyx_n_s_end, __pyx_n_s_gid, __pyx_n_s_gname, __pyx_n_s_tid, __pyx_n_s_tname, __pyx_n_s_chrom, __pyx_n_s_strand, __pyx_n_s_genetype, __pyx_n_s_transcripttype, __pyx_n_s_based, __pyx_n_s_startanno, __pyx_n_s_proteinid, __pyx_n_s_tmpgene, __pyx_n_s_tmptranscript); if (unlikely(!__pyx_tuple__52)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 378; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__52);
   __Pyx_GIVEREF(__pyx_tuple__52);
-  __pyx_codeobj__53 = (PyObject*)__Pyx_PyCode_New(14, 0, 16, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__52, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_get_codon, 378, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__53)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 378; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__53 = (PyObject*)__Pyx_PyCode_New(14, 0, 16, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__52, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_get_codon, 378, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__53)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 378; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __pyx_tuple__54 = PyTuple_Pack(3, ((PyObject *)__pyx_int_1), ((PyObject *)__pyx_int_1), ((PyObject *)Py_None)); if (unlikely(!__pyx_tuple__54)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 378; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__54);
   __Pyx_GIVEREF(__pyx_tuple__54);
@@ -13036,7 +13036,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__55 = PyTuple_Pack(22, __pyx_n_s_self, __pyx_n_s_gtffn, __pyx_n_s_f, __pyx_n_s_line, __pyx_n_s_chrom, __pyx_n_s_source, __pyx_n_s_region_type, __pyx_n_s_start, __pyx_n_s_end, __pyx_n_s_score, __pyx_n_s_strand, __pyx_n_s_codon, __pyx_n_s_commnet, __pyx_n_s_gname, __pyx_n_s_tname, __pyx_n_s_gid, __pyx_n_s_tid, __pyx_n_s_pid, __pyx_n_s_genetype, __pyx_n_s_transcripttype, __pyx_n_s_tmpgene, __pyx_n_s_tmptranscript); if (unlikely(!__pyx_tuple__55)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 397; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__55);
   __Pyx_GIVEREF(__pyx_tuple__55);
-  __pyx_codeobj__56 = (PyObject*)__Pyx_PyCode_New(2, 0, 22, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__55, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_gtf2exons, 397, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__56)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 397; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__56 = (PyObject*)__Pyx_PyCode_New(2, 0, 22, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__55, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_gtf2exons, 397, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__56)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 397; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":427
  * 		return 0
@@ -13048,7 +13048,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__57 = PyTuple_Pack(3, __pyx_n_s_self, __pyx_n_s_strout, __pyx_n_s_gid); if (unlikely(!__pyx_tuple__57)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 427; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__57);
   __Pyx_GIVEREF(__pyx_tuple__57);
-  __pyx_codeobj__58 = (PyObject*)__Pyx_PyCode_New(1, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__57, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_str, 427, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__58)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 427; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__58 = (PyObject*)__Pyx_PyCode_New(1, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__57, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_str, 427, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__58)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 427; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":435
  * 		return strout
@@ -13060,7 +13060,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__59 = PyTuple_Pack(6, __pyx_n_s_hgene, __pyx_n_s_fmt, __pyx_n_s_outputprefix, __pyx_n_s_outputfn, __pyx_n_s_fout, __pyx_n_s_geneid); if (unlikely(!__pyx_tuple__59)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__59);
   __Pyx_GIVEREF(__pyx_tuple__59);
-  __pyx_codeobj__60 = (PyObject*)__Pyx_PyCode_New(3, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__59, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_gene2file, 435, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__60)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__60 = (PyObject*)__Pyx_PyCode_New(3, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__59, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_gene2file, 435, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__60)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 435; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/genestruct.pyx":454
  * 
@@ -13448,7 +13448,7 @@ PyMODINIT_FUNC PyInit_genestruct(void)
  * 			return ' %s "%s";'%(name,obj)
  * 		else:return ""
  * 	def togtf(self):             # <<<<<<<<<<<<<<
- * 		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+ * 		"this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com"
  * 		strout=''
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_5rblib_10genestruct_4Gene_13togtf, 0, __pyx_n_s_Gene_togtf, NULL, __pyx_n_s_rblib_genestruct, __pyx_d, ((PyObject *)__pyx_codeobj__44)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 222; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -13460,7 +13460,7 @@ PyMODINIT_FUNC PyInit_genestruct(void)
  * 		return strout
  * 
  * 	def torefgene(self):             # <<<<<<<<<<<<<<
- * 		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+ * 		"this method written by zhush, contact: zhush@basepedia.com, modified by michael@basepedia.com"
  * 		"Note : in refgene format from UCSC, only output transcripts"
  */
   __pyx_t_4 = __Pyx_CyFunction_NewEx(&__pyx_mdef_5rblib_10genestruct_4Gene_15torefgene, 0, __pyx_n_s_Gene_torefgene, NULL, __pyx_n_s_rblib_genestruct, __pyx_d, ((PyObject *)__pyx_codeobj__46)); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 281; __pyx_clineno = __LINE__; goto __pyx_L1_error;}

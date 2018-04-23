@@ -830,7 +830,7 @@ static char __pyx_k_getstatusoutput[] = "getstatusoutput";
 static char __pyx_k_WARN_No_GO_iterms_found[] = "[WARN] No GO iterms found\n";
 static char __pyx_k_R_EXEC_status_d_detail_info_s[] = "[R EXEC] status: %d, detail info: \n%s";
 static char __pyx_k_library_RamiGO_goIDs_c_s_color[] = "\n\tlibrary(RamiGO)\n\tgoIDs <- c(%s)\n\tcolor <- c(%s)\n\tpng()\n\tpngRes <- getAmigoTree(goIDs=goIDs, color=color, filename=\"%s\", picType=\"png\",modeType=\"advanced\",webserver=\"http://amigo.berkeleybop.org/cgi-bin/amigo/visualize\", saveResult=TRUE)\n\tdev.off()\n\tsvg()\n\tsvgRes <- getAmigoTree(goIDs=goIDs, color=color, filename=\"%s\", picType=\"svg\",modeType=\"advanced\",webserver=\"http://amigo.berkeleybop.org/cgi-bin/amigo/visualize\", saveResult=TRUE)\n\tdev.off()\n\t";
-static char __pyx_k_home_rongzhengqin2_Cython_git_r[] = "/home/rongzhengqin2/Cython/git/rblib/rblib/go_plot.pyx";
+static char __pyx_k_home_michael_Cython_git_r[] = "/home/michael/Cython/git/rblib/rblib/go_plot.pyx";
 static PyObject *__pyx_kp_s_;
 static PyObject *__pyx_kp_s_GO_0000070;
 static PyObject *__pyx_kp_s_GO_0000122;
@@ -1000,7 +1000,7 @@ static PyObject *__pyx_n_s_fig_prefix;
 static PyObject *__pyx_n_s_file;
 static PyObject *__pyx_n_s_getstatusoutput;
 static PyObject *__pyx_n_s_goid_list;
-static PyObject *__pyx_kp_s_home_rongzhengqin2_Cython_git_r;
+static PyObject *__pyx_kp_s_home_michael_Cython_git_r;
 static PyObject *__pyx_n_s_import;
 static PyObject *__pyx_n_s_join;
 static PyObject *__pyx_kp_s_library_RamiGO_goIDs_c_s_color;
@@ -1823,7 +1823,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_file, __pyx_k_file, sizeof(__pyx_k_file), 0, 0, 1, 1},
   {&__pyx_n_s_getstatusoutput, __pyx_k_getstatusoutput, sizeof(__pyx_k_getstatusoutput), 0, 0, 1, 1},
   {&__pyx_n_s_goid_list, __pyx_k_goid_list, sizeof(__pyx_k_goid_list), 0, 0, 1, 1},
-  {&__pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_k_home_rongzhengqin2_Cython_git_r, sizeof(__pyx_k_home_rongzhengqin2_Cython_git_r), 0, 0, 1, 0},
+  {&__pyx_kp_s_home_michael_Cython_git_r, __pyx_k_home_michael_Cython_git_r, sizeof(__pyx_k_home_michael_Cython_git_r), 0, 0, 1, 0},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
   {&__pyx_n_s_join, __pyx_k_join, sizeof(__pyx_k_join), 0, 0, 1, 1},
   {&__pyx_kp_s_library_RamiGO_goIDs_c_s_color, __pyx_k_library_RamiGO_goIDs_c_s_color, sizeof(__pyx_k_library_RamiGO_goIDs_c_s_color), 0, 0, 1, 0},
@@ -1899,7 +1899,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__6 = PyTuple_Pack(7, __pyx_n_s_goid_list, __pyx_n_s_fig_prefix, __pyx_n_s_colors, __pyx_n_s_Rcode, __pyx_n_s_f, __pyx_n_s_status, __pyx_n_s_output); if (unlikely(!__pyx_tuple__6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 5; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__6);
   __Pyx_GIVEREF(__pyx_tuple__6);
-  __pyx_codeobj__7 = (PyObject*)__Pyx_PyCode_New(3, 0, 7, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__6, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_RamiGO_exec, 5, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 5; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__7 = (PyObject*)__Pyx_PyCode_New(3, 0, 7, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__6, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_RamiGO_exec, 5, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__7)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 5; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/go_plot.pyx":39
  * if __name__ == "__main__":

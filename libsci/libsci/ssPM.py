@@ -12,7 +12,7 @@ import bamio
 def __main():
 	start_time = time.time()
 	usage = "usage: %prog [options] Annotation_file [S1.bam,[S2.bam, ...]]"
-	description = "Contact: Rong Zhengqin <rongzhengqin@honortech.cn>"
+	description = "Contact: Rong Zhengqin <michael@honortech.cn>"
 	parser = OptionParser(usage,version="%prog 0.1",description = description)
 	Common_group = OptionGroup(parser,'Required Options')
 

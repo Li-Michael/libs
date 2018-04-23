@@ -870,7 +870,7 @@ static char __pyx_k_WARN_bootstrap_estimate_failed[] = "[WARN] bootstrap estimat
 static char __pyx_k_ERROR_Unkown_multiple_hypothesi[] = "[ERROR] Unkown multiple hypothesis testing method\n";
 static char __pyx_k_INFO_The_pi0_estimate_for_q_val[] = "[INFO] The pi0 estimate for q-value is: %.3f\n";
 static char __pyx_k_WARN_PROG_try_to_fail_Check_tha[] = "[WARN] PROG try to fail, Check that you have valid p-values, PROG will use Benjamini-Hochberg FDR\n";
-static char __pyx_k_home_rongzhengqin2_Cython_git_r[] = "/home/rongzhengqin2/Cython/git/rblib/rblib/enrich.pyx";
+static char __pyx_k_home_michael_Cython_git_r[] = "/home/michael/Cython/git/rblib/rblib/enrich.pyx";
 static PyObject *__pyx_kp_s_ERROR_Scipy_version_too_old;
 static PyObject *__pyx_kp_s_ERROR_Unkown_multiple_hypothesi;
 static PyObject *__pyx_kp_s_ERROR_can_not_parse;
@@ -917,7 +917,7 @@ static PyObject *__pyx_n_s_greater;
 static PyObject *__pyx_n_s_hdb;
 static PyObject *__pyx_n_s_henrich;
 static PyObject *__pyx_n_s_hitermstat;
-static PyObject *__pyx_kp_s_home_rongzhengqin2_Cython_git_r;
+static PyObject *__pyx_kp_s_home_michael_Cython_git_r;
 static PyObject *__pyx_n_s_hstat;
 static PyObject *__pyx_n_s_i;
 static PyObject *__pyx_n_s_import;
@@ -5355,7 +5355,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_hdb, __pyx_k_hdb, sizeof(__pyx_k_hdb), 0, 0, 1, 1},
   {&__pyx_n_s_henrich, __pyx_k_henrich, sizeof(__pyx_k_henrich), 0, 0, 1, 1},
   {&__pyx_n_s_hitermstat, __pyx_k_hitermstat, sizeof(__pyx_k_hitermstat), 0, 0, 1, 1},
-  {&__pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_k_home_rongzhengqin2_Cython_git_r, sizeof(__pyx_k_home_rongzhengqin2_Cython_git_r), 0, 0, 1, 0},
+  {&__pyx_kp_s_home_michael_Cython_git_r, __pyx_k_home_michael_Cython_git_r, sizeof(__pyx_k_home_michael_Cython_git_r), 0, 0, 1, 0},
   {&__pyx_n_s_hstat, __pyx_k_hstat, sizeof(__pyx_k_hstat), 0, 0, 1, 1},
   {&__pyx_n_s_i, __pyx_k_i, sizeof(__pyx_k_i), 0, 0, 1, 1},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
@@ -5553,7 +5553,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__10 = PyTuple_Pack(10, __pyx_n_s_p, __pyx_n_s_lambda0, __pyx_n_s_m, __pyx_n_s_err_str, __pyx_n_s_pi0, __pyx_n_s_i, __pyx_n_s_minpi0, __pyx_n_s_mse, __pyx_n_s_pi0_bootstrap, __pyx_n_s_p_bootstrap); if (unlikely(!__pyx_tuple__10)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 7; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__10);
   __Pyx_GIVEREF(__pyx_tuple__10);
-  __pyx_codeobj__11 = (PyObject*)__Pyx_PyCode_New(2, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__10, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_cal_pi0, 7, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 7; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__11 = (PyObject*)__Pyx_PyCode_New(2, 0, 10, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__10, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_cal_pi0, 7, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__11)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 7; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/enrich.pyx":50
  * 		return pi0
@@ -5565,7 +5565,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__12 = PyTuple_Pack(3, __pyx_n_s_fdr_arr, __pyx_n_s_arr_len, __pyx_n_s_i); if (unlikely(!__pyx_tuple__12)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 50; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__12);
   __Pyx_GIVEREF(__pyx_tuple__12);
-  __pyx_codeobj__13 = (PyObject*)__Pyx_PyCode_New(1, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__12, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_cummin_small_large, 50, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 50; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__13 = (PyObject*)__Pyx_PyCode_New(1, 0, 3, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__12, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_cummin_small_large, 50, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__13)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 50; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/enrich.pyx":59
  * 	return fdr_arr
@@ -5577,7 +5577,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__14 = PyTuple_Pack(14, __pyx_n_s_result_tot, __pyx_n_s_pos_fdr, __pyx_n_s_pos_rawp, __pyx_n_s_method, __pyx_n_s_robust, __pyx_n_s_pi0, __pyx_n_s_rawp, __pyx_n_s_result, __pyx_n_s_result_tot_sort, __pyx_n_s_result_tot_len, __pyx_n_s_FDR_arr, __pyx_n_s_i, __pyx_n_s_index, __pyx_n_s_FDR); if (unlikely(!__pyx_tuple__14)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 59; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__14);
   __Pyx_GIVEREF(__pyx_tuple__14);
-  __pyx_codeobj__15 = (PyObject*)__Pyx_PyCode_New(5, 0, 14, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__14, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_fdr_core, 59, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__15)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 59; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__15 = (PyObject*)__Pyx_PyCode_New(5, 0, 14, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__14, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_fdr_core, 59, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__15)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 59; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/enrich.pyx":93
  * 	return result_tot_sort
@@ -5589,7 +5589,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__16 = PyTuple_Pack(23, __pyx_n_s_siglist, __pyx_n_s_totlist, __pyx_n_s_hdb, __pyx_n_s_method, __pyx_n_s_hstat, __pyx_n_s_set_siglist, __pyx_n_s_set_totlist, __pyx_n_s_henrich, __pyx_n_s_hitermstat, __pyx_n_s_gene, __pyx_n_s_iterms, __pyx_n_s_iterm, __pyx_n_s_M, __pyx_n_s_N, __pyx_n_s_siggene, __pyx_n_s_back_list, __pyx_n_s_totgene, __pyx_n_s_result, __pyx_n_s_m, __pyx_n_s_n, __pyx_n_s_oddsratio, __pyx_n_s_pvalue, __pyx_n_s_result_sort); if (unlikely(!__pyx_tuple__16)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 93; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__16);
   __Pyx_GIVEREF(__pyx_tuple__16);
-  __pyx_codeobj__17 = (PyObject*)__Pyx_PyCode_New(5, 0, 23, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__16, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_do_enrich_core, 93, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__17)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 93; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__17 = (PyObject*)__Pyx_PyCode_New(5, 0, 23, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__16, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_do_enrich_core, 93, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__17)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 93; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/enrich.pyx":177
  * 
@@ -5601,7 +5601,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__18 = PyTuple_Pack(17, __pyx_n_s_result, __pyx_n_s_pcut, __pyx_n_s_nameidx, __pyx_n_s_oddsratioidx, __pyx_n_s_pvalueidx, __pyx_n_s_namesubidx, __pyx_n_s_namesubsep, __pyx_n_s_fig_prefix, __pyx_n_s_xlabel, __pyx_n_s_ylabel, __pyx_n_s_result_mark, __pyx_n_s_result_others, __pyx_n_s_flag, __pyx_n_s_dat, __pyx_n_s_name, __pyx_n_s_oddsratio, __pyx_n_s_pvalue); if (unlikely(!__pyx_tuple__18)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 177; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__18);
   __Pyx_GIVEREF(__pyx_tuple__18);
-  __pyx_codeobj__19 = (PyObject*)__Pyx_PyCode_New(10, 0, 17, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__18, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_enrich_plot, 177, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__19)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 177; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__19 = (PyObject*)__Pyx_PyCode_New(10, 0, 17, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__18, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_enrich_plot, 177, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__19)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 177; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/enrich.pyx":225
  * 	ret = []

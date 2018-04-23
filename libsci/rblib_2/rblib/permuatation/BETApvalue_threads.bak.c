@@ -1,8 +1,8 @@
 /*
 Prog Description:
 		
-Author: Rong Zheng-Qin
-Email: rongzhengqin@genomics.org.cn  or  zju3351689@gmail.com
+Author: michael
+Email: michael@126.com  or  
 2011-12-22 13:12:00
 */
 

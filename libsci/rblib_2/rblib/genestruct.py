@@ -4,7 +4,7 @@ from rklib.utils import us_sort
 import seqio
 
 """
-Contributors  rongzhengqin@basepedia.com, zhush@basepedia.com
+Contributors  Lizz007sci@126.com, zhush@basepedia.com
 """
 
 class Transcript(object):
@@ -220,7 +220,7 @@ include transcripts : %s\n================\n"""%(self.geneid,self.genename,self.
 			return ' %s "%s";'%(name,obj)
 		else:return ""
 	def togtf(self):
-		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+		"this method written by zhush, contact: zhush@basepedia.com, modified by Lizz007sci@126.com"
 		strout=''
 		if not self.parsed: self.parse_gene()
 		if not self.parsed: return strout
@@ -279,7 +279,7 @@ include transcripts : %s\n================\n"""%(self.geneid,self.genename,self.
 		return strout
 
 	def torefgene(self):
-		"this method written by zhush, contact: zhush@basepedia.com, modified by rongzhengqin@basepedia.com"
+		"this method written by zhush, contact: zhush@basepedia.com, modified by Lizz007sci@126.com"
 		"Note : in refgene format from UCSC, only output transcripts"
 		strout=''
 		if not self.parsed: self.parse_gene()

@@ -899,7 +899,7 @@ static char __pyx_k_horizontalalignment[] = "horizontalalignment";
 static char __pyx_k_matplotlib_gridspec[] = "matplotlib.gridspec";
 static char __pyx_k_mpl_toolkits_mplot3d[] = "mpl_toolkits.mplot3d";
 static char __pyx_k_scipy_cluster_hierarchy[] = "scipy.cluster.hierarchy";
-static char __pyx_k_home_rongzhengqin2_Cython_git_r[] = "/home/rongzhengqin2/Cython/git/rblib/rblib/plotxfocus.pyx";
+static char __pyx_k_home_michael_Cython_git_r[] = "/home/michael/Cython/git/rblib/rblib/plotxfocus.pyx";
 static PyObject *__pyx_kp_s_0076AF;
 static PyObject *__pyx_kp_s_1;
 static PyObject *__pyx_kp_s_10;
@@ -996,7 +996,7 @@ static PyObject *__pyx_n_s_groupname;
 static PyObject *__pyx_n_s_groups;
 static PyObject *__pyx_n_s_handlelength;
 static PyObject *__pyx_n_s_height_ratios;
-static PyObject *__pyx_kp_s_home_rongzhengqin2_Cython_git_r;
+static PyObject *__pyx_kp_s_home_michael_Cython_git_r;
 static PyObject *__pyx_n_s_horizontalalignment;
 static PyObject *__pyx_n_s_hspace;
 static PyObject *__pyx_n_s_htmp;
@@ -4906,7 +4906,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_groups, __pyx_k_groups, sizeof(__pyx_k_groups), 0, 0, 1, 1},
   {&__pyx_n_s_handlelength, __pyx_k_handlelength, sizeof(__pyx_k_handlelength), 0, 0, 1, 1},
   {&__pyx_n_s_height_ratios, __pyx_k_height_ratios, sizeof(__pyx_k_height_ratios), 0, 0, 1, 1},
-  {&__pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_k_home_rongzhengqin2_Cython_git_r, sizeof(__pyx_k_home_rongzhengqin2_Cython_git_r), 0, 0, 1, 0},
+  {&__pyx_kp_s_home_michael_Cython_git_r, __pyx_k_home_michael_Cython_git_r, sizeof(__pyx_k_home_michael_Cython_git_r), 0, 0, 1, 0},
   {&__pyx_n_s_horizontalalignment, __pyx_k_horizontalalignment, sizeof(__pyx_k_horizontalalignment), 0, 0, 1, 1},
   {&__pyx_n_s_hspace, __pyx_k_hspace, sizeof(__pyx_k_hspace), 0, 0, 1, 1},
   {&__pyx_n_s_htmp, __pyx_k_htmp, sizeof(__pyx_k_htmp), 0, 0, 1, 1},
@@ -5244,7 +5244,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__19 = PyTuple_Pack(1, __pyx_n_s_ax); if (unlikely(!__pyx_tuple__19)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 48; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__19);
   __Pyx_GIVEREF(__pyx_tuple__19);
-  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_retain_x, 48, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 48; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__20 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__19, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_retain_x, 48, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__20)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 48; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/plotxfocus.pyx":55
  * 	ax.xaxis.set_ticks_position('bottom')
@@ -5256,7 +5256,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__21 = PyTuple_Pack(1, __pyx_n_s_ax); if (unlikely(!__pyx_tuple__21)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 55; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__21);
   __Pyx_GIVEREF(__pyx_tuple__21);
-  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_retain_y, 55, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 55; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__22 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__21, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_retain_y, 55, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__22)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 55; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/plotxfocus.pyx":71
  * 	#for spx in ax.spines.values():
@@ -5268,7 +5268,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__23 = PyTuple_Pack(2, __pyx_n_s_ax, __pyx_n_s_l); if (unlikely(!__pyx_tuple__23)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 71; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__23);
   __Pyx_GIVEREF(__pyx_tuple__23);
-  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_framey, 71, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 71; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__24 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__23, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_framey, 71, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__24)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 71; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/plotxfocus.pyx":80
  * 	for l in ax.get_xticklines() + ax.get_yticklines():
@@ -5280,7 +5280,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__25 = PyTuple_Pack(48, __pyx_n_s_snnum, __pyx_n_s_targetgenelist, __pyx_n_s_dfgroup, __pyx_n_s_groups, __pyx_n_s_mutlist, __pyx_n_s_genemutdf, __pyx_n_s_fig_prefix, __pyx_n_s_width, __pyx_n_s_CNV, __pyx_n_s_cnvlist, __pyx_n_s_fig, __pyx_n_s_num_traits_c, __pyx_n_s_plotarr, __pyx_n_s_plotarrays, __pyx_n_s_mutpos, __pyx_n_s_GS, __pyx_n_s_xlocations, __pyx_n_s_ones, __pyx_n_s_idx, __pyx_n_s_tmpidxcolor, __pyx_n_s_i, __pyx_n_s_group, __pyx_n_s_ax, __pyx_n_s_setsortgroups, __pyx_n_s_colors, __pyx_n_s_legends, __pyx_n_s_k, __pyx_n_s_groupname, __pyx_n_s_tmpidx, __pyx_n_s_l, __pyx_n_s_mutcolors, __pyx_n_s_cnvcolors, __pyx_n_s_stackvAX, __pyx_n_s_ngenesmut, __pyx_n_s_nsamples, __pyx_n_s_ngenes, __pyx_n_s_ngenesCNV, __pyx_n_s_legendsnames, __pyx_n_s_legendscnv, __pyx_n_s_legendsnamescnv, __pyx_n_s_samplenames, __pyx_n_s_genenames, __pyx_n_s_htmp, __pyx_n_s_cumtmp, __pyx_n_s_cnvnames, __pyx_n_s_genename, __pyx_n_s_j, __pyx_n_s_rects); if (unlikely(!__pyx_tuple__25)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 80; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__25);
   __Pyx_GIVEREF(__pyx_tuple__25);
-  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(10, 0, 48, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_mutation_spec, 80, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 80; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__26 = (PyObject*)__Pyx_PyCode_New(10, 0, 48, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__25, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_mutation_spec, 80, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__26)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 80; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/plotxfocus.pyx":202
  * if __name__ == "__main__":

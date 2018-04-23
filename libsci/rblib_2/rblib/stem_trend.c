@@ -974,7 +974,7 @@ static char __pyx_k_significant_difference_list[] = "##significant difference li
 static char __pyx_k_ERROR_Ntimes_must_be_2_please_c[] = "[ERROR] Ntimes must be >= 2, please check\n";
 static char __pyx_k_ID_matureID_F_statistics_pvalue[] = "#ID\tmatureID\tF statistics\tpvalue\tqvalue\tExprsMean\tTrend_label\tMultiple_comparison";
 static char __pyx_k_Normalized_Expression_log__2_tr[] = "$Normalized\\ Expression(log_{2}\\ transformed)$";
-static char __pyx_k_home_rongzhengqin2_Cython_git_r[] = "/home/rongzhengqin2/Cython/git/rblib/rblib/stem_trend.pyx";
+static char __pyx_k_home_michael_Cython_git_r[] = "/home/michael/Cython/git/rblib/rblib/stem_trend.pyx";
 static PyObject *__pyx_kp_s_0;
 static PyObject *__pyx_kp_s_3f;
 static PyObject *__pyx_kp_s_DiffPlot;
@@ -1058,7 +1058,7 @@ static PyObject *__pyx_n_s_get_compare_fornorepeat;
 static PyObject *__pyx_n_s_gwaspls;
 static PyObject *__pyx_n_s_h;
 static PyObject *__pyx_n_s_h_data;
-static PyObject *__pyx_kp_s_home_rongzhengqin2_Cython_git_r;
+static PyObject *__pyx_kp_s_home_michael_Cython_git_r;
 static PyObject *__pyx_n_s_hsig;
 static PyObject *__pyx_n_s_i;
 static PyObject *__pyx_n_s_idx;
@@ -9575,7 +9575,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_gwaspls, __pyx_k_gwaspls, sizeof(__pyx_k_gwaspls), 0, 0, 1, 1},
   {&__pyx_n_s_h, __pyx_k_h, sizeof(__pyx_k_h), 0, 0, 1, 1},
   {&__pyx_n_s_h_data, __pyx_k_h_data, sizeof(__pyx_k_h_data), 0, 0, 1, 1},
-  {&__pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_k_home_rongzhengqin2_Cython_git_r, sizeof(__pyx_k_home_rongzhengqin2_Cython_git_r), 0, 0, 1, 0},
+  {&__pyx_kp_s_home_michael_Cython_git_r, __pyx_k_home_michael_Cython_git_r, sizeof(__pyx_k_home_michael_Cython_git_r), 0, 0, 1, 0},
   {&__pyx_n_s_hsig, __pyx_k_hsig, sizeof(__pyx_k_hsig), 0, 0, 1, 1},
   {&__pyx_n_s_i, __pyx_k_i, sizeof(__pyx_k_i), 0, 0, 1, 1},
   {&__pyx_n_s_idx, __pyx_k_idx, sizeof(__pyx_k_idx), 0, 0, 1, 1},
@@ -10038,7 +10038,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__50 = PyTuple_Pack(12, __pyx_n_s_ntimes, __pyx_n_s_c, __pyx_n_s_starts, __pyx_n_s_c_range, __pyx_n_s_prod_arr, __pyx_n_s_i, __pyx_n_s_profile_matrix, __pyx_n_s_m, __pyx_n_s_profileslables, __pyx_n_s_zerolabel, __pyx_n_s_profile_matrix_out, __pyx_n_s_tmplabel); if (unlikely(!__pyx_tuple__50)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 13; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__50);
   __Pyx_GIVEREF(__pyx_tuple__50);
-  __pyx_codeobj__51 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__50, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_exprs_profile, 13, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__51)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 13; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__51 = (PyObject*)__Pyx_PyCode_New(2, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__50, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_exprs_profile, 13, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__51)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 13; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/stem_trend.pyx":49
  * 
@@ -10050,7 +10050,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__52 = PyTuple_Pack(4, __pyx_n_s_profiles, __pyx_n_s_num, __pyx_n_s_model, __pyx_n_s_other); if (unlikely(!__pyx_tuple__52)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 49; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__52);
   __Pyx_GIVEREF(__pyx_tuple__52);
-  __pyx_codeobj__53 = (PyObject*)__Pyx_PyCode_New(2, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__52, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_merge_profile, 49, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__53)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 49; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__53 = (PyObject*)__Pyx_PyCode_New(2, 0, 4, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__52, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_merge_profile, 49, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__53)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 49; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/stem_trend.pyx":56
  * 	return profiles[model,:]
@@ -10062,7 +10062,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__54 = PyTuple_Pack(14, __pyx_n_s_exprs_matrix, __pyx_n_s_profiles, __pyx_n_s_profileslables, __pyx_n_s_ngenes, __pyx_n_s_p1, __pyx_n_s_m, __pyx_n_s_p2, __pyx_n_s_class_observe_counts, __pyx_n_s_trend_idx, __pyx_n_s_midx, __pyx_n_s_i, __pyx_n_s_coefmat, __pyx_n_s_idx, __pyx_n_s_tmp_trend_idx); if (unlikely(!__pyx_tuple__54)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 56; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__54);
   __Pyx_GIVEREF(__pyx_tuple__54);
-  __pyx_codeobj__55 = (PyObject*)__Pyx_PyCode_New(3, 0, 14, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__54, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_assign_profile, 56, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__55)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 56; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__55 = (PyObject*)__Pyx_PyCode_New(3, 0, 14, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__54, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_assign_profile, 56, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__55)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 56; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/stem_trend.pyx":80
  * 	return trend_idx,class_observe_counts
@@ -10074,7 +10074,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__56 = PyTuple_Pack(19, __pyx_n_s_exprs_matrix, __pyx_n_s_profiles, __pyx_n_s_raw_class_observe_counts, __pyx_n_s_ngenes, __pyx_n_s_p1, __pyx_n_s_m, __pyx_n_s_p2, __pyx_n_s_class_observe_counts, __pyx_n_s_idx, __pyx_n_s_exprs_matrix_0, __pyx_n_s_i, __pyx_n_s_exprs_matrix_1, __pyx_n_s_coefmat, __pyx_n_s_retvalue, __pyx_n_s_tmp_p, __pyx_n_s_tmp_counts, __pyx_n_s_rawp, __pyx_n_s_retdict, __pyx_n_s_tmp); if (unlikely(!__pyx_tuple__56)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 80; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__56);
   __Pyx_GIVEREF(__pyx_tuple__56);
-  __pyx_codeobj__57 = (PyObject*)__Pyx_PyCode_New(3, 0, 19, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__56, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_permute_bernoulli, 80, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__57)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 80; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__57 = (PyObject*)__Pyx_PyCode_New(3, 0, 19, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__56, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_permute_bernoulli, 80, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__57)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 80; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/stem_trend.pyx":116
  * 	return retdict
@@ -10086,7 +10086,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__58 = PyTuple_Pack(19, __pyx_n_s_meandata_arr, __pyx_n_s_c, __pyx_n_s_meandata, __pyx_n_s_ngenes, __pyx_n_s_ntimes, __pyx_n_s_profile_matrix, __pyx_n_s_profileslables, __pyx_n_s_trend_idx, __pyx_n_s_class_observe_counts, __pyx_n_s_retdict, __pyx_n_s_retdata, __pyx_n_s_i, __pyx_n_s_genetrendidx, __pyx_n_s_strout, __pyx_n_s_tmpgenetrendidx, __pyx_n_s_tmplabel, __pyx_n_s_rawp, __pyx_n_s_qvalue, __pyx_n_s_rawcounts); if (unlikely(!__pyx_tuple__58)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 116; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__58);
   __Pyx_GIVEREF(__pyx_tuple__58);
-  __pyx_codeobj__59 = (PyObject*)__Pyx_PyCode_New(2, 0, 19, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__58, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_short_time_analysis, 116, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__59)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 116; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__59 = (PyObject*)__Pyx_PyCode_New(2, 0, 19, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__58, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_short_time_analysis, 116, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__59)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 116; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/stem_trend.pyx":135
  * 	return retdata
@@ -10098,7 +10098,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__60 = PyTuple_Pack(16, __pyx_n_s_num, __pyx_n_s_edgeRdir, __pyx_n_s_prefix, __pyx_n_s_subpre, __pyx_n_s_starts, __pyx_n_s_h, __pyx_n_s_i, __pyx_n_s_j, __pyx_n_s_fn, __pyx_n_s_f, __pyx_n_s_line, __pyx_n_s_name, __pyx_n_s_logfc, __pyx_n_s_logCPM, __pyx_n_s_PValue, __pyx_n_s_fdr); if (unlikely(!__pyx_tuple__60)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 135; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__60);
   __Pyx_GIVEREF(__pyx_tuple__60);
-  __pyx_codeobj__61 = (PyObject*)__Pyx_PyCode_New(5, 0, 16, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__60, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_parse_edgeRdir, 135, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__61)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 135; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__61 = (PyObject*)__Pyx_PyCode_New(5, 0, 16, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__60, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_parse_edgeRdir, 135, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__61)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 135; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/stem_trend.pyx":156
  * from rklib import utils
@@ -10110,7 +10110,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__62 = PyTuple_Pack(58, __pyx_n_s_matrix, __pyx_n_s_sampleinfo, __pyx_n_s_edgeRdir, __pyx_n_s_outdir, __pyx_n_s_prefix, __pyx_n_s_subpre, __pyx_n_s_starts, __pyx_n_s_plotflag, __pyx_n_s_sinfo, __pyx_n_s_num, __pyx_n_s_data, __pyx_n_s_hsig, __pyx_n_s_tot_mean, __pyx_n_s_letterlist, __pyx_n_s_result_tot, __pyx_n_s_pb, __pyx_n_s_pi, __pyx_n_s_meanarr, __pyx_n_s_meansort, __pyx_n_s_idx, __pyx_n_s_mean_fc2ck_strlist, __pyx_n_s_k, __pyx_n_s_meansorted, __pyx_n_s_letteridx, __pyx_n_s_smeanidx, __pyx_n_s_i, __pyx_n_s_ii, __pyx_n_s_jj, __pyx_n_s_iii, __pyx_n_s_jjj, __pyx_n_s_prob, __pyx_n_s_marker, __pyx_n_s_j, __pyx_n_s_markers, __pyx_n_s_a, __pyx_n_s_marklabel, __pyx_n_s_Fstat, __pyx_n_s_pvalue, __pyx_n_s_stdarr, __pyx_n_s_ylabel, __pyx_n_s_meanstdarr, __pyx_n_s_retdata, __pyx_n_s_geneid, __pyx_n_s_siglabel, __pyx_n_s_h_data, __pyx_n_s_floatfmt, __pyx_n_s_key, __pyx_n_s_tmpdata, __pyx_n_s_mean_arr_header, __pyx_n_s_fc_arr_header, __pyx_n_s_classlabel, __pyx_n_s_fhout_sig, __pyx_n_s_fhout_sig_mat, __pyx_n_s_nameid, __pyx_n_s_anno, __pyx_n_s_statics, __pyx_n_s_fdr, __pyx_n_s_strout); if (unlikely(!__pyx_tuple__62)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 156; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__62);
   __Pyx_GIVEREF(__pyx_tuple__62);
-  __pyx_codeobj__63 = (PyObject*)__Pyx_PyCode_New(8, 0, 58, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__62, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_get_compare_fornorepeat, 156, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__63)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 156; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__63 = (PyObject*)__Pyx_PyCode_New(8, 0, 58, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__62, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_get_compare_fornorepeat, 156, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__63)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 156; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_RefNannyFinishContext();
   return 0;
   __pyx_L1_error:;

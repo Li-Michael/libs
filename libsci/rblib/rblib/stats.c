@@ -678,7 +678,7 @@ static char __pyx_k_rblib_stats[] = "rblib.stats";
 static char __pyx_k_add_constant[] = "add_constant";
 static char __pyx_k_logisticregress[] = "logisticregress";
 static char __pyx_k_statsmodels_tools[] = "statsmodels.tools";
-static char __pyx_k_home_rongzhengqin2_Cython_git_r[] = "/home/rongzhengqin2/Cython/git/rblib/rblib/stats.pyx";
+static char __pyx_k_home_michael_Cython_git_r[] = "/home/michael/Cython/git/rblib/rblib/stats.pyx";
 static char __pyx_k_http_vincentarelbundock_github_i[] = "http://vincentarelbundock.github.io/Rdatasets/csv/MASS/birthwt.csv";
 static char __pyx_k_statsmodels_discrete_discrete_mo[] = "statsmodels.discrete.discrete_model";
 static PyObject *__pyx_n_s_Exception;
@@ -699,7 +699,7 @@ static PyObject *__pyx_n_s_file;
 static PyObject *__pyx_n_s_fit;
 static PyObject *__pyx_n_s_ftv;
 static PyObject *__pyx_n_s_full_output;
-static PyObject *__pyx_kp_s_home_rongzhengqin2_Cython_git_r;
+static PyObject *__pyx_kp_s_home_michael_Cython_git_r;
 static PyObject *__pyx_n_s_ht;
 static PyObject *__pyx_kp_s_http_vincentarelbundock_github_i;
 static PyObject *__pyx_n_s_import;
@@ -1318,7 +1318,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_fit, __pyx_k_fit, sizeof(__pyx_k_fit), 0, 0, 1, 1},
   {&__pyx_n_s_ftv, __pyx_k_ftv, sizeof(__pyx_k_ftv), 0, 0, 1, 1},
   {&__pyx_n_s_full_output, __pyx_k_full_output, sizeof(__pyx_k_full_output), 0, 0, 1, 1},
-  {&__pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_k_home_rongzhengqin2_Cython_git_r, sizeof(__pyx_k_home_rongzhengqin2_Cython_git_r), 0, 0, 1, 0},
+  {&__pyx_kp_s_home_michael_Cython_git_r, __pyx_k_home_michael_Cython_git_r, sizeof(__pyx_k_home_michael_Cython_git_r), 0, 0, 1, 0},
   {&__pyx_n_s_ht, __pyx_k_ht, sizeof(__pyx_k_ht), 0, 0, 1, 1},
   {&__pyx_kp_s_http_vincentarelbundock_github_i, __pyx_k_http_vincentarelbundock_github_i, sizeof(__pyx_k_http_vincentarelbundock_github_i), 0, 0, 1, 0},
   {&__pyx_n_s_import, __pyx_k_import, sizeof(__pyx_k_import), 0, 0, 1, 1},
@@ -1391,7 +1391,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__3 = PyTuple_Pack(6, __pyx_n_s_Y, __pyx_n_s_X, __pyx_n_s_intercept, __pyx_n_s_md, __pyx_n_s_rslt, __pyx_n_s_e); if (unlikely(!__pyx_tuple__3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 7; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__3);
   __Pyx_GIVEREF(__pyx_tuple__3);
-  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(3, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_logisticregress, 7, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 7; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__4 = (PyObject*)__Pyx_PyCode_New(3, 0, 6, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__3, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_logisticregress, 7, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 7; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/stats.pyx":27
  * 

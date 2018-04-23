@@ -656,7 +656,7 @@ static char __pyx_k_https_translate_google_cn[] = "https://translate.google.cn";
 static char __pyx_k_A_study_of_1_182_young_Scottish[] = "A study of 1,182 young Scottish asthma patients (age, 3-22 years) concluded that rs1042713(A) alleles are significantly associated with \"exacerbations\" of their condition, regardless of treatment regimens (odds ratio 1.30, CI: 1.09-1.55, p=0.003). This didn't hold true for patients using inhalers less than once per day; and it was particularly true for those receiving daily inhaled long- or short-acting beta(2)-agonist treatment (OR, 1.64, CI: 1.22-2.20, p=.001). This may therefore indicate that regular inhalant use of albuterol (found in Ventolin) or long-acting agonists, such as salmeterol found in Advair, may be counter-productive in young asthma patients carrying one or especially two rs1042713(A) alleles.";
 static char __pyx_k_Hello_my_name_is_Smith_What_are[] = "Hello, my name is Smith. What are you doing now? ";
 static char __pyx_k_Mozilla_4_0_compatible_MSIE_6_0[] = "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)";
-static char __pyx_k_home_rongzhengqin2_Cython_git_r[] = "/home/rongzhengqin2/Cython/git/rklib/rklib/googletr.pyx";
+static char __pyx_k_home_michael_Cython_git_r[] = "/home/michael/Cython/git/rklib/rklib/googletr.pyx";
 static PyObject *__pyx_kp_s_A_study_of_1_182_young_Scottish;
 static PyObject *__pyx_kp_s_Hello_my_name_is_Smith_What_are;
 static PyObject *__pyx_kp_s_Mozilla_4_0_compatible_MSIE_6_0;
@@ -677,7 +677,7 @@ static PyObject *__pyx_n_s_end;
 static PyObject *__pyx_n_s_file;
 static PyObject *__pyx_n_s_group;
 static PyObject *__pyx_n_s_hl;
-static PyObject *__pyx_kp_s_home_rongzhengqin2_Cython_git_r;
+static PyObject *__pyx_kp_s_home_michael_Cython_git_r;
 static PyObject *__pyx_n_s_html;
 static PyObject *__pyx_kp_s_https_translate_google_cn;
 static PyObject *__pyx_n_s_ie;
@@ -1162,7 +1162,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_file, __pyx_k_file, sizeof(__pyx_k_file), 0, 0, 1, 1},
   {&__pyx_n_s_group, __pyx_k_group, sizeof(__pyx_k_group), 0, 0, 1, 1},
   {&__pyx_n_s_hl, __pyx_k_hl, sizeof(__pyx_k_hl), 0, 0, 1, 1},
-  {&__pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_k_home_rongzhengqin2_Cython_git_r, sizeof(__pyx_k_home_rongzhengqin2_Cython_git_r), 0, 0, 1, 0},
+  {&__pyx_kp_s_home_michael_Cython_git_r, __pyx_k_home_michael_Cython_git_r, sizeof(__pyx_k_home_michael_Cython_git_r), 0, 0, 1, 0},
   {&__pyx_n_s_html, __pyx_k_html, sizeof(__pyx_k_html), 0, 0, 1, 1},
   {&__pyx_kp_s_https_translate_google_cn, __pyx_k_https_translate_google_cn, sizeof(__pyx_k_https_translate_google_cn), 0, 0, 1, 0},
   {&__pyx_n_s_ie, __pyx_k_ie, sizeof(__pyx_k_ie), 0, 0, 1, 1},
@@ -1237,7 +1237,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__5 = PyTuple_Pack(12, __pyx_n_s_text, __pyx_n_s_text_1, __pyx_n_s_values, __pyx_n_s_url, __pyx_n_s_data, __pyx_n_s_req, __pyx_n_s_browser, __pyx_n_s_response, __pyx_n_s_html, __pyx_n_s_p, __pyx_n_s_m, __pyx_n_s_text_2); if (unlikely(!__pyx_tuple__5)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 10; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__5);
   __Pyx_GIVEREF(__pyx_tuple__5);
-  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_translate, 10, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 10; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__6 = (PyObject*)__Pyx_PyCode_New(1, 0, 12, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__5, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_translate, 10, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 10; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rklib/googletr.pyx":44
  * 	text_1="""A study of 1,182 young Scottish asthma patients (age, 3-22 years) concluded that rs1042713(A) alleles are significantly associated with "exacerbations" of their condition, regardless of treatment regimens (odds ratio 1.30, CI: 1.09-1.55, p=0.003). This didn't hold true for patients using inhalers less than once per day; and it was particularly true for those receiving daily inhaled long- or short-acting beta(2)-agonist treatment (OR, 1.64, CI: 1.22-2.20, p=.001). This may therefore indicate that regular inhalant use of albuterol (found in Ventolin) or long-acting agonists, such as salmeterol found in Advair, may be counter-productive in young asthma patients carrying one or especially two rs1042713(A) alleles."""

@@ -79,3 +79,7 @@ for tester in (timer.timer, timer.best):
         print('%-9s: best=%.5f \t average=%.5f => result: %s' % (test.__name__, elasped, average, ret))
 
 """
+
+if __name__=="__main__":
+    print("timer.py")
+    print(sys.version)

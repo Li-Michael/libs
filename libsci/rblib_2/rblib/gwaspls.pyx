@@ -2,7 +2,7 @@
 ------This is a GWAS method with partial least squares (PLS) of multiple SNPs test.------
 	  Here, we use the PLS and Permutation test for VIP Statistics.
 	  
-	  Programed by Rong Zhenq-Qin (rongzhenqqin@genomics.org.cn  or  zju3351689@gmail.com)
+	  Programed by Rong Zhenq-Qin (rongzhenqqin@126.com  or  )
 """
 import sys
 import numpy as np
@@ -556,7 +556,7 @@ def MCVIPtest(X_SNPs,Y,fh_vip,fh_per,nlvs=10,ntimes=1000,nsel=200):
 ------Here we give a LSSVM for classify and function estimate------
 	in the classifier, this LSSVM used for pattern recognition
 	in the function estimation, this LSSVM could be for the regression prediction
-	Programed by Rong Zhenq-Qin (rongzhq@genomics.org.cn)
+	Programed by Rong Zhenq-Qin (rongzhq@126.com)
 """
 
 

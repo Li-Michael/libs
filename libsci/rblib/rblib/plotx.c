@@ -927,7 +927,7 @@ static char __pyx_k_matplotlib_gridspec[] = "matplotlib.gridspec";
 static char __pyx_k_mpl_toolkits_mplot3d[] = "mpl_toolkits.mplot3d";
 static char __pyx_k_scipy_cluster_hierarchy[] = "scipy.cluster.hierarchy";
 static char __pyx_k_Progression_free_survival[] = "Progression_free_survival";
-static char __pyx_k_home_rongzhengqin2_Cython_git_r[] = "/home/rongzhengqin2/Cython/git/rblib/rblib/plotx.pyx";
+static char __pyx_k_home_michael_Cython_git_r[] = "/home/michael/Cython/git/rblib/rblib/plotx.pyx";
 static PyObject *__pyx_kp_s_0076AE;
 static PyObject *__pyx_kp_s_0E5088;
 static PyObject *__pyx_kp_s_1;
@@ -1038,7 +1038,7 @@ static PyObject *__pyx_n_s_groupname;
 static PyObject *__pyx_n_s_groups;
 static PyObject *__pyx_n_s_handlelength;
 static PyObject *__pyx_n_s_height_ratios;
-static PyObject *__pyx_kp_s_home_rongzhengqin2_Cython_git_r;
+static PyObject *__pyx_kp_s_home_michael_Cython_git_r;
 static PyObject *__pyx_n_s_horizontalalignment;
 static PyObject *__pyx_n_s_hspace;
 static PyObject *__pyx_n_s_htmp;
@@ -8589,7 +8589,7 @@ static __Pyx_StringTabEntry __pyx_string_tab[] = {
   {&__pyx_n_s_groups, __pyx_k_groups, sizeof(__pyx_k_groups), 0, 0, 1, 1},
   {&__pyx_n_s_handlelength, __pyx_k_handlelength, sizeof(__pyx_k_handlelength), 0, 0, 1, 1},
   {&__pyx_n_s_height_ratios, __pyx_k_height_ratios, sizeof(__pyx_k_height_ratios), 0, 0, 1, 1},
-  {&__pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_k_home_rongzhengqin2_Cython_git_r, sizeof(__pyx_k_home_rongzhengqin2_Cython_git_r), 0, 0, 1, 0},
+  {&__pyx_kp_s_home_michael_Cython_git_r, __pyx_k_home_michael_Cython_git_r, sizeof(__pyx_k_home_michael_Cython_git_r), 0, 0, 1, 0},
   {&__pyx_n_s_horizontalalignment, __pyx_k_horizontalalignment, sizeof(__pyx_k_horizontalalignment), 0, 0, 1, 1},
   {&__pyx_n_s_hspace, __pyx_k_hspace, sizeof(__pyx_k_hspace), 0, 0, 1, 1},
   {&__pyx_n_s_htmp, __pyx_k_htmp, sizeof(__pyx_k_htmp), 0, 0, 1, 1},
@@ -9095,7 +9095,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__34 = PyTuple_Pack(2, __pyx_n_s_ax, __pyx_n_s_spx); if (unlikely(!__pyx_tuple__34)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 47; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__34);
   __Pyx_GIVEREF(__pyx_tuple__34);
-  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_clean_axis, 47, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 47; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__35 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__34, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_clean_axis, 47, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__35)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 47; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/plotx.pyx":53
  * 	for spx in ax.spines.values():
@@ -9107,7 +9107,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__36 = PyTuple_Pack(1, __pyx_n_s_ax); if (unlikely(!__pyx_tuple__36)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__36);
   __Pyx_GIVEREF(__pyx_tuple__36);
-  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_retain_x, 53, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__37 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__36, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_retain_x, 53, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__37)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 53; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/plotx.pyx":60
  * 	ax.xaxis.set_ticks_position('bottom')
@@ -9119,7 +9119,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__38 = PyTuple_Pack(1, __pyx_n_s_ax); if (unlikely(!__pyx_tuple__38)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 60; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__38);
   __Pyx_GIVEREF(__pyx_tuple__38);
-  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_retain_y, 60, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 60; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__39 = (PyObject*)__Pyx_PyCode_New(1, 0, 1, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__38, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_retain_y, 60, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__39)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 60; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/plotx.pyx":76
  * 	#for spx in ax.spines.values():
@@ -9131,7 +9131,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__40 = PyTuple_Pack(2, __pyx_n_s_ax, __pyx_n_s_l); if (unlikely(!__pyx_tuple__40)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 76; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__40);
   __Pyx_GIVEREF(__pyx_tuple__40);
-  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_framey, 76, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 76; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__41 = (PyObject*)__Pyx_PyCode_New(1, 0, 2, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__40, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_framey, 76, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__41)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 76; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/plotx.pyx":81
  * 	for l in ax.get_xticklines() + ax.get_yticklines():
@@ -9143,7 +9143,7 @@ static int __Pyx_InitCachedConstants(void) {
   __pyx_tuple__42 = PyTuple_Pack(55, __pyx_n_s_snnum, __pyx_n_s_dfgroup, __pyx_n_s_groups, __pyx_n_s_stackdata, __pyx_n_s_stacknames, __pyx_n_s_traitsurv, __pyx_n_s_mutlist, __pyx_n_s_genemutdf, __pyx_n_s_fig_prefix, __pyx_n_s_width, __pyx_n_s_CNV, __pyx_n_s_APOBEC, __pyx_n_s_gainloss, __pyx_n_s_fig, __pyx_n_s_num_traits_c, __pyx_n_s_plotarr, __pyx_n_s_mutpos, __pyx_n_s_cnvpos, __pyx_n_s_plotarrays, __pyx_n_s_GS, __pyx_n_s_xlocations, __pyx_n_s_ones, __pyx_n_s_idx, __pyx_n_s_tmpidxcolor, __pyx_n_s_i, __pyx_n_s_group, __pyx_n_s_ax, __pyx_n_s_setsortgroups, __pyx_n_s_colors, __pyx_n_s_legends, __pyx_n_s_k, __pyx_n_s_groupname, __pyx_n_s_tmpidx, __pyx_n_s_l, __pyx_n_s_n, __pyx_n_s_p, __pyx_n_s_stackvAX, __pyx_n_s_cumtmp, __pyx_n_s_rects, __pyx_n_s_barax, __pyx_n_s_mutcolors, __pyx_n_s_ngenes, __pyx_n_s_nsamples, __pyx_n_s_legendsnames, __pyx_n_s_samplenames, __pyx_n_s_genenames, __pyx_n_s_htmp, __pyx_n_s_j, __pyx_n_s_stackvdata, __pyx_n_s_ylocations, __pyx_n_s_linewidth, __pyx_n_s_alpha, __pyx_n_s_cnvcolors, __pyx_n_s_cnvlist, __pyx_n_s_cnvcutoff); if (unlikely(!__pyx_tuple__42)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 81; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   __Pyx_GOTREF(__pyx_tuple__42);
   __Pyx_GIVEREF(__pyx_tuple__42);
-  __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(13, 0, 55, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__42, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_rongzhengqin2_Cython_git_r, __pyx_n_s_mutation_spec, 81, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 81; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __pyx_codeobj__43 = (PyObject*)__Pyx_PyCode_New(13, 0, 55, 0, 0, __pyx_empty_bytes, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_tuple__42, __pyx_empty_tuple, __pyx_empty_tuple, __pyx_kp_s_home_michael_Cython_git_r, __pyx_n_s_mutation_spec, 81, __pyx_empty_bytes); if (unlikely(!__pyx_codeobj__43)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 81; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
 
   /* "rblib/plotx.pyx":292
  * if __name__ == "__main__":
