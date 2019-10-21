@@ -161,7 +161,7 @@ urllib3==1.21.1
 uWSGI==2.0.14
 watchdog==0.8.3
 wcwidth==0.1.7
-Werkzeug==0.12.1
+Werkzeug==0.15.3
 widgetsnbextension==2.0.0
 wrapt==1.10.10
 youtube-dl==2017.6.23
