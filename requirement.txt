@@ -70,7 +70,7 @@ lazy-object-proxy==1.2.2
 livereload==2.5.1
 lxml==3.7.3
 Markdown==2.6.8
-markdown2==2.3.3
+markdown2==2.4.0
 MarkupSafe==1.0
 matplotlib==2.0.0
 mccabe==0.6.1
