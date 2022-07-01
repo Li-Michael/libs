@@ -146,7 +146,7 @@ SQLAlchemy==1.1.9
 static==1.0.2
 static3==0.5
 subprocess32==3.2.7
-supervisor==3.3.1
+supervisor==3.3.3
 sympy==1.0
 tensorflow==1.1.0
 terminado==0.6
